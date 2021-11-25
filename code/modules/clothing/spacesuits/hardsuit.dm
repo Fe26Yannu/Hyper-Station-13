@@ -875,7 +875,7 @@
 	name = "cydonian helmet"
 	desc = "A helmet designed with both form and function in mind, it protects the user against physical trauma and hazardous conditions while also having polychromic light strips."
 	icon_state = "knight_cydonia"
-	item_state = "knight_cydonia"
+	item_state = "knight_yellow"
 	item_color = null
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | LAVA_PROOF
@@ -927,7 +927,7 @@
 	icon_state = "knight_cydonia"
 	name = "cydonian armor"
 	desc = "A suit designed with both form and function in mind, it protects the user against physical trauma and hazardous conditions while also having polychromic light strips."
-	item_state = "knight_cydonia"
+	item_state = "swat_suit"
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | LAVA_PROOF
 	armor = list(melee = 50, bullet = 10, laser = 10, energy = 10, bomb = 50, bio = 100, rad = 50, fire = 100, acid = 100)
